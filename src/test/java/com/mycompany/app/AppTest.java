@@ -19,7 +19,7 @@ public class AppTest
     @Test
     public void testAppMessage()
     {
-        App apps = new App();
-        assertEquals("Hello World!", app.getMessage());
+        App app = new App();
+        assertEquals("HI CITY", app.getMessage());
     }
 }
