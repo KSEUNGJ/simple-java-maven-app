@@ -1,6 +1,9 @@
 
 pipeline {
     agent any
+    tools {
+        maven 'Maven 3.8.6' // Jenkins에서 설정한 Maven 이름
+    }
     stages {
         stage('Build') {
             steps {
@@ -20,4 +23,3 @@ pipeline {
         }
     }
 }
-
